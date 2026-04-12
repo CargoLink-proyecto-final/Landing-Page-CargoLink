@@ -21,7 +21,7 @@ export default function Survey() {
             <span className="icon">{'\u{1F69B}'}</span>
             <h3>Soy Transportista</h3>
             <p>Si sos chofer o tenés una flota de transporte, tu experiencia es clave para diseñar las herramientas que realmente necesitás.</p>
-            <a href="https://forms.gle/transportista" target="_blank" rel="noopener" className="btn-survey btn-survey-amber">
+            <a href="https://forms.gle/wChxrHiG7cuKpF9QA" target="_blank" rel="noopener" className="btn-survey btn-survey-amber">
               Completar encuesta →
             </a>
           </div>
@@ -29,7 +29,7 @@ export default function Survey() {
             <span className="icon">{'\u{1F3ED}'}</span>
             <h3>Genero Cargas</h3>
             <p>Si sos particular o empresa que necesita enviar mercadería, contanos cómo podemos simplificar tu logística.</p>
-            <a href="https://forms.gle/generador" target="_blank" rel="noopener" className="btn-survey btn-survey-teal">
+            <a href="https://forms.gle/eo6oc5dK1v2U9CMA6" target="_blank" rel="noopener" className="btn-survey btn-survey-teal">
               Completar encuesta →
             </a>
           </div>
