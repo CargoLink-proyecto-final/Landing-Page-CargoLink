@@ -24,7 +24,7 @@ export default function Solution() {
           <div className="sol-card reveal reveal-delay-2">
             <span className="icon">{'\u{1F517}'}</span>
             <h3>Matching inteligente</h3>
-            <p>El sistema vincula automáticamente rutas disponibles con cargas compatibles según ubicación, capacidad y tiempos.</p>
+            <p>El sistema filtra automáticamente rutas disponibles con cargas compatibles según ubicación, capacidad y tiempos.</p>
           </div>
           <div className="sol-card reveal reveal-delay-3">
             <span className="icon">{'\u{1F4E6}'}</span>
