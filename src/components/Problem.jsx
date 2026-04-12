@@ -1,3 +1,4 @@
+import { WifiOff, RouteOff, Unplug, TrendingDown } from 'lucide-react'
 import useScrollReveal from '../hooks/useScrollReveal'
 
 export default function Problem() {
@@ -27,7 +28,7 @@ export default function Problem() {
             </div>
             <div className="problem-divider"></div>
             <div className="problem-stat-small">
-              <div className="icon">{'\u{1F4CA}'}</div>
+              <div className="icon"><WifiOff size={24} /></div>
               <div className="text">
                 <strong>Sin herramientas digitales centralizadas</strong>,
                 transportistas y empresas coordinan envíos de forma manual,
@@ -38,21 +39,21 @@ export default function Problem() {
 
           <div className="problem-cards">
             <div className="problem-card reveal reveal-delay-1">
-              <div className="icon">{'\u{1F504}'}</div>
+              <div className="icon"><RouteOff size={24} /></div>
               <div>
                 <h3>Viajes en vacío</h3>
                 <p>Los camiones viajan cargados en un sentido pero regresan sin mercadería, desperdiciando combustible, tiempo y capacidad.</p>
               </div>
             </div>
             <div className="problem-card reveal reveal-delay-2">
-              <div className="icon">{'\u{1F4CB}'}</div>
+              <div className="icon"><Unplug size={24} /></div>
               <div>
                 <h3>Gestión desconectada</h3>
                 <p>No existe una plataforma centralizada que permita coordinar envíos de manera eficiente entre transportistas y generadores de carga.</p>
               </div>
             </div>
             <div className="problem-card reveal reveal-delay-3">
-              <div className="icon">{'\u{1F4B8}'}</div>
+              <div className="icon"><TrendingDown size={24} /></div>
               <div>
                 <h3>Costos operativos elevados</h3>
                 <p>La falta de integración genera problemas de organización, baja visibilidad y mayores costos para todos los actores de la cadena.</p>

@@ -1,3 +1,4 @@
+import { MapPinned, GitMerge, PackageCheck, ShieldCheck, Handshake, BarChart3 } from 'lucide-react'
 import useScrollReveal from '../hooks/useScrollReveal'
 
 export default function Solution() {
@@ -17,32 +18,32 @@ export default function Solution() {
 
         <div className="solution-features">
           <div className="sol-card reveal reveal-delay-1">
-            <span className="icon">{'\u{1F4CD}'}</span>
+            <span className="icon"><MapPinned size={32} /></span>
             <h3>Publicación de rutas y cargas</h3>
             <p>Transportistas publican sus rutas disponibles. Usuarios y empresas publican sus cargas con origen, destino, tipo y peso.</p>
           </div>
           <div className="sol-card reveal reveal-delay-2">
-            <span className="icon">{'\u{1F517}'}</span>
+            <span className="icon"><GitMerge size={32} /></span>
             <h3>Matching inteligente</h3>
             <p>El sistema filtra automáticamente rutas disponibles con cargas compatibles según ubicación, capacidad y tiempos.</p>
           </div>
           <div className="sol-card reveal reveal-delay-3">
-            <span className="icon">{'\u{1F4E6}'}</span>
+            <span className="icon"><PackageCheck size={32} /></span>
             <h3>Gestión de envíos</h3>
             <p>Seguimiento completo del estado de cada transporte: pendiente, en curso y finalizado, con notificaciones en tiempo real.</p>
           </div>
           <div className="sol-card reveal reveal-delay-4">
-            <span className="icon">{'\u2705'}</span>
+            <span className="icon"><ShieldCheck size={32} /></span>
             <h3>Validación de identidad</h3>
             <p>Verificación de choferes mediante DNI y controles asociados a AFIP/ARCA para garantizar la confiabilidad.</p>
           </div>
           <div className="sol-card reveal reveal-delay-5">
-            <span className="icon">{'\u2B50'}</span>
+            <span className="icon"><Handshake size={32} /></span>
             <h3>Sistema de valoraciones</h3>
             <p>Calificaciones y comentarios entre transportistas y usuarios para construir confianza en la plataforma.</p>
           </div>
           <div className="sol-card reveal reveal-delay-6">
-            <span className="icon">{'\u{1F4CA}'}</span>
+            <span className="icon"><BarChart3 size={32} /></span>
             <h3>Métricas y dashboard</h3>
             <p>Paneles de análisis con indicadores de rendimiento para que empresas y administradores tomen mejores decisiones.</p>
           </div>

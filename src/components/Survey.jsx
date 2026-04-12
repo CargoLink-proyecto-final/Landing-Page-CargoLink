@@ -1,3 +1,4 @@
+import { Truck, Building2 } from 'lucide-react'
 import useScrollReveal from '../hooks/useScrollReveal'
 
 export default function Survey() {
@@ -18,7 +19,7 @@ export default function Survey() {
 
         <div className="survey-cards">
           <div className="survey-card reveal reveal-delay-3">
-            <span className="icon">{'\u{1F69B}'}</span>
+            <span className="icon"><Truck size={48} strokeWidth={1.5} /></span>
             <h3>Soy Transportista</h3>
             <p>Si sos chofer o tenés una flota de transporte, tu experiencia es clave para diseñar las herramientas que realmente necesitás.</p>
             <a href="https://forms.gle/wChxrHiG7cuKpF9QA" target="_blank" rel="noopener" className="btn-survey btn-survey-amber">
@@ -26,7 +27,7 @@ export default function Survey() {
             </a>
           </div>
           <div className="survey-card reveal reveal-delay-4">
-            <span className="icon">{'\u{1F3ED}'}</span>
+            <span className="icon"><Building2 size={48} strokeWidth={1.5} /></span>
             <h3>Genero Cargas</h3>
             <p>Si sos particular o empresa que necesita enviar mercadería, contanos cómo podemos simplificar tu logística.</p>
             <a href="https://forms.gle/eo6oc5dK1v2U9CMA6" target="_blank" rel="noopener" className="btn-survey btn-survey-teal">

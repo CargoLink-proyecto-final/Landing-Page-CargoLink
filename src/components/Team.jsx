@@ -1,9 +1,9 @@
 import useScrollReveal from '../hooks/useScrollReveal'
 
 const members = [
-  { initials: 'SB', name: 'Simón Barrale', role: 'Desarrollador' },
-  { initials: 'MF', name: 'Manuel Frias', role: 'Desarrollador' },
-  { initials: 'VM', name: 'Vicente Monzo', role: 'Desarrollador' },
+  { initials: 'SB', name: 'Simón Barrale', role: 'Dev y QA' },
+  { initials: 'MF', name: 'Manuel Frias', role: 'Project Manager y Dev' },
+  { initials: 'VM', name: 'Vicente Monzo', role: 'Scrum Master y QA' },
 ]
 
 export default function Team() {

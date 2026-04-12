@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react'
+import { Truck, Building2 } from 'lucide-react'
 import useScrollReveal from '../hooks/useScrollReveal'
 
 const transportistaSteps = [
@@ -21,7 +22,6 @@ export default function HowItWorks() {
 
   const handleTabClick = useCallback((tab) => {
     setActiveTab(tab)
-    // Re-trigger reveal on newly visible steps
     setTimeout(() => {
       const panel = document.getElementById(`panel-${tab}`)
       if (panel) {
@@ -52,13 +52,13 @@ export default function HowItWorks() {
             className={`how-tab${activeTab === 'transportista' ? ' active' : ''}`}
             onClick={() => handleTabClick('transportista')}
           >
-            {'\u{1F69B}'} Transportista
+            <Truck size={16} /> Transportista
           </button>
           <button
             className={`how-tab${activeTab === 'carga' ? ' active' : ''}`}
             onClick={() => handleTabClick('carga')}
           >
-            {'\u{1F4E6}'} Generador de carga
+            <Building2 size={16} /> Generador de carga
           </button>
         </div>
 

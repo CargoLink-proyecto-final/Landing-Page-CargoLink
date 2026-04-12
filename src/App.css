@@ -272,10 +272,10 @@ nav {
     position: absolute;
     right: 8%;
     bottom: 15%;
-    font-size: 6rem;
     opacity: 0.08;
     animation: float 6s ease-in-out infinite;
     z-index: 1;
+    color: var(--white);
 }
 
 /* Stats bar */
@@ -399,9 +399,9 @@ nav {
     z-index: 2;
 }
 .problem-stat-small .icon {
-    font-size: 1.5rem;
     flex-shrink: 0;
     margin-top: 2px;
+    color: var(--amber);
 }
 .problem-stat-small .text {
     font-size: 0.9rem;
@@ -434,7 +434,6 @@ nav {
     box-shadow: 0 12px 32px rgba(0,0,0,0.08);
 }
 .problem-card .icon {
-    font-size: 1.6rem;
     flex-shrink: 0;
     width: 48px; height: 48px;
     background: var(--gray-100);
@@ -442,6 +441,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--teal);
 }
 .problem-card h3 {
     font-size: 1rem;
@@ -496,9 +496,9 @@ nav {
     transform: translateY(-4px);
 }
 .sol-card .icon {
-    font-size: 2rem;
     margin-bottom: 20px;
     display: block;
+    color: var(--amber);
 }
 .sol-card h3 {
     font-size: 1.05rem;
@@ -539,6 +539,9 @@ nav {
     color: var(--gray-600);
     font-family: var(--font-body);
     transition: all 0.25s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 .how-tab.active {
     background: var(--white);
@@ -624,8 +627,8 @@ nav {
     transform: translateY(-4px);
 }
 .feature-card .icon {
-    font-size: 1.6rem;
     margin-bottom: 16px;
+    color: var(--teal);
 }
 .feature-card h3 {
     font-size: 0.95rem;
@@ -723,9 +726,9 @@ nav {
     box-shadow: 0 24px 48px rgba(0,0,0,0.3);
 }
 .survey-card .icon {
-    font-size: 3rem;
     margin-bottom: 20px;
     display: block;
+    color: var(--amber);
 }
 .survey-card h3 {
     font-size: 1.3rem;

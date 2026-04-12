@@ -1,9 +1,11 @@
+import { Truck } from 'lucide-react'
+
 export default function Hero() {
   return (
     <>
       <section className="hero">
         <div className="hero-grid"></div>
-        <div className="hero-truck">{'\u{1F69B}'}</div>
+        <div className="hero-truck"><Truck size={96} strokeWidth={1} /></div>
         <div className="container hero-content">
           <div className="hero-tag anim-fade-up">Plataforma logística</div>
           <h1 className="anim-fade-up anim-delay-1">
