@@ -1,0 +1,30 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --ink: #0a1628;
+    --navy: #0f2440;
+    --slate: #1a3554;
+    --teal: #0d7377;
+    --teal-light: #14a3a8;
+    --amber: #e8913a;
+    --amber-light: #f0a855;
+    --amber-glow: #e8913a33;
+    --cream: #f4f1eb;
+    --white: #ffffff;
+    --gray-100: #f7f5f2;
+    --gray-200: #e8e4de;
+    --gray-400: #9a9388;
+    --gray-600: #5c564e;
+    --font-body: 'DM Sans', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    font-family: var(--font-body);
+    color: var(--ink);
+    background: var(--cream);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
