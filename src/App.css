@@ -718,6 +718,7 @@ nav {
     mask-composite: exclude;
     opacity: 0;
     transition: opacity 0.4s;
+    pointer-events: none;
 }
 .survey-card:hover::before { opacity: 1; }
 .survey-card:hover {
@@ -755,6 +756,8 @@ nav {
     text-decoration: none;
     transition: all 0.3s ease;
     animation: pulseGlow 3s ease-in-out infinite;
+    position: relative;
+    z-index: 2;
 }
 .btn-survey-amber {
     background: var(--amber);
