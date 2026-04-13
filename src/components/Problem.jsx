@@ -20,7 +20,7 @@ export default function Problem() {
           <div className="problem-visual reveal">
             <div className="problem-stat-big">
               <div className="unit">Hasta un</div>
-              <div className="num">40%</div>
+              <div className="num">54%</div>
               <div className="desc">
                 de los camiones en Argentina realizan sus viajes de retorno
                 completamente vacíos, generando pérdidas millonarias al sector.

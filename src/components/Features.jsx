@@ -5,7 +5,7 @@ const features = [
   { Icon: Users, title: 'Perfiles diferenciados', desc: 'Tres tipos de usuario: chofer, particular y empresa, cada uno con funcionalidades adaptadas a sus necesidades.' },
   { Icon: Compass, title: 'Gestión de rutas', desc: 'Los transportistas publican y administran sus rutas con origen, destino, capacidad y disponibilidad.' },
   { Icon: PackagePlus, title: 'Publicación de cargas', desc: 'Usuarios y empresas detallan sus necesidades de envío: tipo de mercadería, peso, ubicación y fechas.' },
-  { Icon: GitMerge, title: 'Matching automático', desc: 'Algoritmo que filtra rutas disponibles con cargas compatibles por ubicación, capacidad y tiempo.' },
+  { Icon: GitMerge, title: 'Matching inteligente', desc: 'Algoritmo que filtra rutas disponibles con cargas compatibles por ubicación, capacidad y tiempo.' },
   { Icon: ScanSearch, title: 'Seguimiento de envíos', desc: 'Visualización del estado de cada transporte en tiempo real: pendiente, en curso o finalizado.' },
   { Icon: LayoutDashboard, title: 'Dashboard de métricas', desc: 'Indicadores de rendimiento y análisis operativo para la toma de decisiones estratégicas.' },
 ]

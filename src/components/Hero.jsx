@@ -28,7 +28,7 @@ export default function Hero() {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-item anim-fade-up anim-delay-3">
-              <div className="stat-num">40%</div>
+              <div className="stat-num">54%</div>
               <div className="stat-label">de los camiones vuelven vacíos</div>
             </div>
             <div className="stat-item anim-fade-up anim-delay-4">
